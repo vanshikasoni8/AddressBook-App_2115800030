@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\AddressBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressbook\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressbook\\repositorylayer\\context\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\context\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressbook\\modellayer\\dto\\addressbookentryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\addressbookentryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressbook\\modellayer\\dto\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressbook\\webapplication1\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressbook\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\AddressBook\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\AddressBook\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T16:06:33.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressBookEntryEntity.cs",
+              "DocumentMoniker": "E:\\AddressBook\\ModelLayer\\DTO\\AddressBookEntryEntity.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTO\\AddressBookEntryEntity.cs",
+              "ToolTip": "E:\\AddressBook\\ModelLayer\\DTO\\AddressBookEntryEntity.cs",
+              "RelativeToolTip": "ModelLayer\\DTO\\AddressBookEntryEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:49:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "E:\\AddressBook\\ModelLayer\\DTO\\UserEntity.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTO\\UserEntity.cs",
+              "ToolTip": "E:\\AddressBook\\ModelLayer\\DTO\\UserEntity.cs",
+              "RelativeToolTip": "ModelLayer\\DTO\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:48:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressBookContext.cs",
+              "DocumentMoniker": "E:\\AddressBook\\RepositoryLayer\\Context\\AddressBookContext.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Context\\AddressBookContext.cs",
+              "ToolTip": "E:\\AddressBook\\RepositoryLayer\\Context\\AddressBookContext.cs",
+              "RelativeToolTip": "RepositoryLayer\\Context\\AddressBookContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:36:32.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\AddressBook\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\AddressBook\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:32:00.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "E:\\AddressBook\\WebApplication1\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AddressBookController.cs",
+              "ToolTip": "E:\\AddressBook\\WebApplication1\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:29:06.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1141,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

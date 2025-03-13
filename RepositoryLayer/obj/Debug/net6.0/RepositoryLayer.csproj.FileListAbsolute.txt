@@ -1,0 +1,17 @@
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+E:\AddressBook\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache
+E:\AddressBook\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
