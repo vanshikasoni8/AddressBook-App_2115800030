@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9i1wqqANUFJxkVvr4diRzL65QMe01XJ9nnPlKjqd4po=",
+  "Source": "AddressBookApp",
+  "BasePath": "_content/AddressBookApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

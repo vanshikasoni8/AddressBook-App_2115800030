@@ -1,0 +1,11 @@
+E:\AddressBook\BussinessLayer\bin\Debug\net6.0\BussinessLayer.deps.json
+E:\AddressBook\BussinessLayer\bin\Debug\net6.0\BussinessLayer.dll
+E:\AddressBook\BussinessLayer\bin\Debug\net6.0\BussinessLayer.pdb
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfoInputs.cache
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfo.cs
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CoreCompileInputs.cache
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.dll
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\refint\BussinessLayer.dll
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\BussinessLayer.pdb
+E:\AddressBook\BussinessLayer\obj\Debug\net6.0\ref\BussinessLayer.dll
