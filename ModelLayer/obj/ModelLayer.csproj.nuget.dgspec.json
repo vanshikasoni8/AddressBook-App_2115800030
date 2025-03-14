@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj": {}
+    "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {}
   },
   "projects": {
-    "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj": {
+    "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\AddressBook\\ModelLayer\\obj\\",
+        "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
