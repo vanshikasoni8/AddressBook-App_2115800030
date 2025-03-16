@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ModelLayer.DTO
 
 {
-    public class AddressBookEntryEntity
+    public class AddressBookEntity
     {
         [Key]
         public int Id { get; set; }
@@ -17,7 +17,7 @@ namespace ModelLayer.DTO
         public string Name { get; set; }
 
         [Required]
-        public string PhoneNumber { get; set; }
+        public string Phone { get; set; }
 
         [Required]
         public string Email { get; set; }

@@ -1,5 +1,9 @@
+using BussinessLayer.Interface;
+using BussinessLayer.Service;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
+using RepositoryLayer.Interface;
+using RepositoryLayer.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +18,10 @@ builder.Services.AddSwaggerGen();
 //Entity FrameWork Core
 builder.Services.AddDbContext<AddressBookContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddScoped<IAddressBookRL, AddressBookRL>();
+builder.Services.AddScoped<IAddressBookBL, AddressBookBL>();
 
 
 var app = builder.Build();

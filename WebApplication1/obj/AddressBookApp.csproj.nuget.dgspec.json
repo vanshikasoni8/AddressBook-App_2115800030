@@ -1,147 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AddressBook\\WebApplication1\\AddressBookApp.csproj": {}
+    "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\AddressBookApp.csproj": {}
   },
   "projects": {
-    "E:\\AddressBook\\BussinessLayer\\BussinessLayer.csproj": {
+    "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AddressBook\\BussinessLayer\\BussinessLayer.csproj",
+        "projectUniqueName": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj",
         "projectName": "BussinessLayer",
-        "projectPath": "E:\\AddressBook\\BussinessLayer\\BussinessLayer.csproj",
+        "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\AddressBook\\BussinessLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj",
-        "projectName": "ModelLayer",
-        "projectPath": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\AddressBook\\ModelLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\AddressBook\\RepositoryLayer\\RepositoryLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\AddressBook\\RepositoryLayer\\RepositoryLayer.csproj",
-        "projectName": "RepositoryLayer",
-        "projectPath": "E:\\AddressBook\\RepositoryLayer\\RepositoryLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\AddressBook\\RepositoryLayer\\obj\\",
+        "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,8 +32,145 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj"
+              "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj"
+              },
+              "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj",
+        "projectName": "ModelLayer",
+        "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }
@@ -225,14 +232,14 @@
         }
       }
     },
-    "E:\\AddressBook\\WebApplication1\\AddressBookApp.csproj": {
+    "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\AddressBookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AddressBook\\WebApplication1\\AddressBookApp.csproj",
+        "projectUniqueName": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\AddressBookApp.csproj",
         "projectName": "AddressBookApp",
-        "projectPath": "E:\\AddressBook\\WebApplication1\\AddressBookApp.csproj",
+        "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\AddressBookApp.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\AddressBook\\WebApplication1\\obj\\",
+        "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -253,14 +260,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\AddressBook\\BussinessLayer\\BussinessLayer.csproj": {
-                "projectPath": "E:\\AddressBook\\BussinessLayer\\BussinessLayer.csproj"
-              },
-              "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "E:\\AddressBook\\ModelLayer\\ModelLayer.csproj"
-              },
-              "E:\\AddressBook\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "E:\\AddressBook\\RepositoryLayer\\RepositoryLayer.csproj"
+              "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj": {
+                "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj"
               }
             }
           }
@@ -281,6 +282,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.3.1, )"
