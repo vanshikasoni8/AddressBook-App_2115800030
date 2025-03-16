@@ -17,12 +17,14 @@ namespace WebApplication1.Controllers
             _addressBookBL = addressBookBL;
         }
 
+        // Fetching all contacts
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AddressBookEntity>>> GetAllContacts()
         {
             return Ok(await _addressBookBL.GetAllContactsAsync());
         }
 
+        // get a contact by Id
         [HttpGet("Get Contact")]
         public async Task<ActionResult<AddressBookEntity>> GetContactById(int id)
         {
@@ -31,6 +33,7 @@ namespace WebApplication1.Controllers
             return Ok(contact);
         }
 
+        //for adding New Contacts
         [HttpPost]
         [Route("AddContact")]
         public async Task<ActionResult<AddressBookEntity>> AddContact(AddressBookEntity contact)
@@ -39,6 +42,7 @@ namespace WebApplication1.Controllers
             return CreatedAtAction(nameof(GetContactById), new { id = newContact.Id }, newContact);
         }
 
+        //for updating contacts
         [HttpPut("UpdateContact")]
         public async Task<IActionResult> UpdateContact(int id, AddressBookEntity updatedContact)
         {
@@ -47,6 +51,7 @@ namespace WebApplication1.Controllers
             return NoContent();
         }
 
+        // for deleting Contacts
         [HttpDelete("DeleteContact")]
         public async Task<IActionResult> DeleteContact(int id)
         {
