@@ -9,12 +9,20 @@
       "AddressBookApp/1.0.0": {
         "dependencies": {
           "BussinessLayer": "1.0.0",
-          "ModelLayer": "1.0.0",
-          "RepositoryLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.36",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.36",
           "Swashbuckle.AspNetCore": "7.3.1"
         },
         "runtime": {
           "AddressBookApp.dll": {}
+        }
+      },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -102,6 +110,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.36": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.36": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.36"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "6.0.36.0",
+            "fileVersion": "6.0.3624.51504"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.36": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.36",
@@ -127,6 +147,11 @@
             "assemblyVersion": "6.0.36.0",
             "fileVersion": "6.0.3624.51504"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.36": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.36"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -515,6 +540,10 @@
         }
       },
       "BussinessLayer/1.0.0": {
+        "dependencies": {
+          "ModelLayer": "1.0.0",
+          "RepositoryLayer": "1.0.0"
+        },
         "runtime": {
           "BussinessLayer.dll": {
             "assemblyVersion": "1.0.0",
@@ -550,6 +579,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -593,6 +629,13 @@
       "path": "microsoft.entityframeworkcore.analyzers/6.0.36",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.36.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Design/6.0.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r9dwblLaEPSdHocaouGINBxfqPJieOCs4Z44gMXuWBCrlnfuteoXGp3lSZXtifSZCLdOcFMoUHpDgpSrk9CDmg==",
+      "path": "microsoft.entityframeworkcore.design/6.0.36",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.36.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Relational/6.0.36": {
       "type": "package",
       "serviceable": true,
@@ -606,6 +649,13 @@
       "sha512": "sha512-kSpJFqRu8KM6J/C+Q93n5wcqVKt3cu9jRy0P1HlWm6RSQfCoEAyonwOaMmOctN+d8ooziUanTAFV63iQyww0Ug==",
       "path": "microsoft.entityframeworkcore.sqlserver/6.0.36",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.36.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zBo/oepzDsoXCwfE4mwxzA3lBrYMtfpmkQ1rmtQnuvaORY6yCeVIx4Vpr/ENz3DShuHiNYr7c1ClBSZleW78Dw==",
+      "path": "microsoft.entityframeworkcore.tools/6.0.36",
+      "hashPath": "microsoft.entityframeworkcore.tools.6.0.36.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

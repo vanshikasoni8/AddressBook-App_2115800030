@@ -5,13 +5,20 @@ namespace RepositoryLayer.Context
 {
     public class AddressBookContext : DbContext
     {
-        public AddressBookContext(DbContextOptions<AddressBookContext> options) : base(options) { }
+        public AddressBookContext(DbContextOptions<AddressBookContext> options) : base(options)
+        {
+           
+        }
 
         public DbSet<UserEntity> User { get; set; }
 
-        public DbSet<AddressBookEntryEntity> AddressBookEntries { get; set; }
-        
+        public DbSet<AddressBookEntity> Contacts { get; set; }
 
-
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserEntity>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+        }
     }
 }

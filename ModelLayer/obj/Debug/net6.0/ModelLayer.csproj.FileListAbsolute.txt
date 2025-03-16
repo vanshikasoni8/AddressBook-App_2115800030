@@ -9,3 +9,15 @@ E:\AddressBook\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
 E:\AddressBook\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 E:\AddressBook\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 E:\AddressBook\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+E:\AddressClone\AddressBook-App_2115800030\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
