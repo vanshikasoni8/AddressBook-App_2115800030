@@ -12,8 +12,6 @@
         "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\obj\\",
-<<<<<<< HEAD
-=======
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,7 +84,6 @@
         "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\obj\\",
->>>>>>> Section1_UC2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -47,6 +47,7 @@ namespace WebApplication1.Controllers
             return NoContent();
         }
 
+        // for deleting Contact
         [HttpDelete("DeleteContact")]
         public async Task<IActionResult> DeleteContact(int id)
         {

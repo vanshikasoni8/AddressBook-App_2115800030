@@ -2552,15 +2552,6 @@
           "projectReferences": {
             "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj": {
               "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\BussinessLayer.csproj"
-<<<<<<< HEAD
-            },
-            "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj": {
-              "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\ModelLayer.csproj"
-            },
-            "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\RepositoryLayer.csproj"
-=======
->>>>>>> Section1_UC2
             }
           }
         }
@@ -2620,5 +2611,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
