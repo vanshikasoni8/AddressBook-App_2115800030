@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ModelLayer.DTO;
+using ModelLayer.Model;
 using RepositoryLayer.Context;
 using RepositoryLayer.Interface;
 

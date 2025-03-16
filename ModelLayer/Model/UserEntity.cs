@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelLayer.DTO
+namespace ModelLayer.Model
 {
     public class UserEntity
     {
@@ -20,7 +20,7 @@ namespace ModelLayer.DTO
 
         [Required]
 
-        public string Password { get; set; }
+        public string PasswordHash { get; set; }
 
     }
 }

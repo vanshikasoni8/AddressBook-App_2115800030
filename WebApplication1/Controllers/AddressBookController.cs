@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
 using BussinessLayer.Service;
-using ModelLayer.DTO;
 using BussinessLayer.Interface;
+using ModelLayer.Model;
+using ModelLayer.DTO;
 namespace WebApplication1.Controllers
 {
     [ApiController]

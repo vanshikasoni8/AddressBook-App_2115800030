@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ModelLayer.DTO;
+using ModelLayer.Model;
 
 namespace RepositoryLayer.Context
 {

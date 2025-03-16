@@ -169,3 +169,4 @@ E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\refi
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\AddressBookApp.pdb
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\AddressBookApp.genruntimeconfig.cache
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\ref\AddressBookApp.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\BCrypt.Net-Next.dll
