@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BussinessLayer.Interface;
 using ModelLayer.DTO;
+using ModelLayer.Model;
 using RepositoryLayer.Interface;
 
 namespace BussinessLayer.Service

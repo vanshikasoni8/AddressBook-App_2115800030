@@ -1,3 +1,4 @@
+using BussinessLayer.Helper;
 using BussinessLayer.Interface;
 using BussinessLayer.Service;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,11 @@ builder.Services.AddDbContext<AddressBookContext>(options =>
 // dependencies Injection
 builder.Services.AddScoped<IAddressBookRL, AddressBookRL>();
 builder.Services.AddScoped<IAddressBookBL, AddressBookBL>();
+builder.Services.AddScoped<IUserBL, UserBL>();
+builder.Services.AddScoped<IUserRL, UserRL>();
+
+//JWT Generator
+builder.Services.AddSingleton<JwtTokenGenerator>();
 
 
 var app = builder.Build();
