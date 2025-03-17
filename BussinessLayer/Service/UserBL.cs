@@ -68,8 +68,8 @@ namespace BussinessLayer.Service
 
         public async Task<bool> ResetPassword(ResetPasswordDTO resetPasswordDTO)
         {
-            var user = await _userRepository.GetUserByEmail(resetPasswordDTO.Token);
-            if (user == null || user.ResetTokenExpiry > DateTime.UtcNow) return false;
+            var user = await _userRepository.GetUserByResetToken(resetPasswordDTO.Token);
+            if (user == null || user.ResetTokenExpiry < DateTime.UtcNow) return false;
 
             user.PasswordHash = PasswordHasher.HashPassword(resetPasswordDTO.NewPassword);
             user.ResetToken = null;
