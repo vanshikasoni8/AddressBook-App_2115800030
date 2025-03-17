@@ -170,3 +170,11 @@ E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\Addr
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\AddressBookApp.genruntimeconfig.cache
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\obj\Debug\net6.0\ref\AddressBookApp.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\BCrypt.Net-Next.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\MailKit.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\MimeKit.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\System.Formats.Asn1.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll

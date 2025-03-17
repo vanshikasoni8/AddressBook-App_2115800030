@@ -7,8 +7,44 @@
       "RelativeMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\service\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\model\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressclone\\addressbook-app_2115800030\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\bussinesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressclone\\addressbook-app_2115800030\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\dto\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\bussinesslayer\\helper\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\helper\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressclone\\addressbook-app_2115800030\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,40 +79,12 @@
       "RelativeMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\helper\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\bussinesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAAB3A4-DF01-4D8A-9051-E9CC4FB3799F}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\model\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\modellayer\\model\\addressbookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{135BF6EA-6A27-4499-AE90-C666BBD3A20E}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\addressbookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|e:\\addressclone\\addressbook-app_2115800030\\repositorylayer\\context\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D837FB28-7DFE-4CCD-850D-14961EDB88F0}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\context\\addressbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressclone\\addressbook-app_2115800030\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D9363CF-C9DF-4237-AA74-0FB607CB39B4}|WebApplication1\\AddressBookApp.csproj|e:\\addressclone\\addressbook-app_2115800030\\webapplication1\\addressbookapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -94,84 +102,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwBoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T16:52:23.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAddressBookBL.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IAddressBookBL.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\Interface\\IAddressBookBL.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IAddressBookBL.cs",
-              "RelativeToolTip": "BussinessLayer\\Interface\\IAddressBookBL.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:27:49.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddressBookBL.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Service\\AddressBookBL.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\Service\\AddressBookBL.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Service\\AddressBookBL.cs",
-              "RelativeToolTip": "BussinessLayer\\Service\\AddressBookBL.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:27:27.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddressBookController.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AddressBookController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AddressBookController.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AddressBookController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AddressBookController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:29:06.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\Helper\\JwtTokenGenerator.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "BussinessLayer\\Helper\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:43:52.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "BussinessLayer\\Helper\\PasswordHasher.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\PasswordHasher.cs",
-              "RelativeToolTip": "BussinessLayer\\Helper\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:47:07.603Z",
               "EditorCaption": ""
             },
             {
@@ -182,79 +125,40 @@
               "RelativeDocumentMoniker": "BussinessLayer\\Service\\UserBL.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Service\\UserBL.cs",
               "RelativeToolTip": "BussinessLayer\\Service\\UserBL.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T16:39:57.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddressBookRL.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\AddressBookRL.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\AddressBookRL.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\AddressBookRL.cs",
-              "RelativeToolTip": "RepositoryLayer\\Service\\AddressBookRL.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:56:18.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:32:00.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAddressBookRL.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IAddressBookRL.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IAddressBookRL.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IAddressBookRL.cs",
-              "RelativeToolTip": "RepositoryLayer\\Interface\\IAddressBookRL.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:23:05.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IUserRL.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IUserRL.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IUserRL.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IUserRL.cs",
-              "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:31:09.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "UserRL.cs",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\UserRL.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Service\\UserRL.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\UserRL.cs",
               "RelativeToolTip": "RepositoryLayer\\Service\\UserRL.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T16:29:33.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "ModelLayer\\DTO\\UserDTO.cs",
@@ -267,85 +171,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "IUserBL.cs",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IUserBL.cs",
               "RelativeDocumentMoniker": "BussinessLayer\\Interface\\IUserBL.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IUserBL.cs",
               "RelativeToolTip": "BussinessLayer\\Interface\\IUserBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T16:40:48.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTO\\AuthResponseDto.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\AuthResponseDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTO\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:28:11.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddressBookContext.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Context\\AddressBookContext.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Context\\AddressBookContext.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Context\\AddressBookContext.cs",
-              "RelativeToolTip": "RepositoryLayer\\Context\\AddressBookContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:40:02.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddressBookEntity.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\AddressBookEntity.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Model\\AddressBookEntity.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\AddressBookEntity.cs",
-              "RelativeToolTip": "ModelLayer\\Model\\AddressBookEntity.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:58:02.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\UserEntity.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Model\\UserEntity.cs",
-              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\UserEntity.cs",
-              "RelativeToolTip": "ModelLayer\\Model\\UserEntity.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:48:50.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\appsettings.json",
               "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-16T15:08:38.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTO\\ResetPasswordDTO.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "ModelLayer\\DTO\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:09:31.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRL.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:31:09.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\UserEntity.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Model\\UserEntity.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\UserEntity.cs",
+              "RelativeToolTip": "ModelLayer\\Model\\UserEntity.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:48:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPasswordDTO.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\ForgotPasswordDTO.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTO\\ForgotPasswordDTO.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\DTO\\ForgotPasswordDTO.cs",
+              "RelativeToolTip": "ModelLayer\\DTO\\ForgotPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:08:39.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\EmailService.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Helper\\EmailService.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\EmailService.cs",
+              "RelativeToolTip": "BussinessLayer\\Helper\\EmailService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:12:28.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Helper\\PasswordHasher.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\PasswordHasher.cs",
+              "RelativeToolTip": "BussinessLayer\\Helper\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:47:07.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Helper\\JwtTokenGenerator.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Helper\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "BussinessLayer\\Helper\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:43:52.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AddressBookController.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:29:06.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddressBookBL.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Service\\AddressBookBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Service\\AddressBookBL.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Service\\AddressBookBL.cs",
+              "RelativeToolTip": "BussinessLayer\\Service\\AddressBookBL.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:27:27.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAddressBookBL.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IAddressBookBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\Interface\\IAddressBookBL.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\BussinessLayer\\Interface\\IAddressBookBL.cs",
+              "RelativeToolTip": "BussinessLayer\\Interface\\IAddressBookBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:27:49.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddressBookRL.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\AddressBookRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\AddressBookRL.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Service\\AddressBookRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\AddressBookRL.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:56:18.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAddressBookRL.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IAddressBookRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IAddressBookRL.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Interface\\IAddressBookRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IAddressBookRL.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:23:05.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddressBookContext.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Context\\AddressBookContext.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Context\\AddressBookContext.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\RepositoryLayer\\Context\\AddressBookContext.cs",
+              "RelativeToolTip": "RepositoryLayer\\Context\\AddressBookContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:40:02.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "AddressBookEntity.cs",
+              "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\AddressBookEntity.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Model\\AddressBookEntity.cs",
+              "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\ModelLayer\\Model\\AddressBookEntity.cs",
+              "RelativeToolTip": "ModelLayer\\Model\\AddressBookEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:58:02.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AddressBookApp.csproj",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\AddressBookApp.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\AddressBookApp.csproj",
@@ -358,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\AddressClone\\AddressBook-App_2115800030\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
