@@ -27,7 +27,9 @@ builder.Services.AddScoped<IUserBL, UserBL>();
 builder.Services.AddScoped<IUserRL, UserRL>();
 
 //JWT Generator
+
 builder.Services.AddSingleton<JwtTokenGenerator>();
+builder.Services.AddSingleton<EmailService>();
 
 
 var app = builder.Build();

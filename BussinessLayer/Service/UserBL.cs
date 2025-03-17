@@ -15,11 +15,13 @@ namespace BussinessLayer.Service
     {
         private readonly IUserRL _userRepository;
         private readonly JwtTokenGenerator _jwtTokenGenerator;
+        private readonly EmailService _emailService;
 
-        public UserBL(IUserRL userRepository, JwtTokenGenerator jwtTokenGenerator)
+        public UserBL(IUserRL userRepository, JwtTokenGenerator jwtTokenGenerator, EmailService emailService)
         {
             _userRepository = userRepository;
             _jwtTokenGenerator = jwtTokenGenerator;
+            _emailService = emailService;
         }
 
         public async Task<UserEntity> Register(UserDTO userDTO)
@@ -44,6 +46,38 @@ namespace BussinessLayer.Service
             }
 
             return _jwtTokenGenerator.GenerateToken(user.Email);
+        }
+
+        public async Task<bool> ForgotPassword(ForgotPasswordDTO forgotPasswordDTO)
+        {
+            var user = await _userRepository.GetUserByEmail(forgotPasswordDTO.Email);
+            if (user == null) return false;
+
+            user.ResetToken = Guid.NewGuid().ToString();
+            user.ResetTokenExpiry = DateTime.UtcNow.AddHours(2);
+
+            await _userRepository.UpdateUser(user);
+
+            string resetLink = $"https://localhost:7135/api/auth/reset-password?token={user.ResetToken}";
+            string emailBody = $"Click <a href='{resetLink}'>here</a> to reset your password.";
+
+            await _emailService.SendEmailAsync(user.Email, "Password Reset", emailBody);
+
+            return true;
+        }
+
+        public async Task<bool> ResetPassword(ResetPasswordDTO resetPasswordDTO)
+        {
+            var user = await _userRepository.GetUserByEmail(resetPasswordDTO.Token);
+            if (user == null || user.ResetTokenExpiry > DateTime.UtcNow) return false;
+
+            user.PasswordHash = PasswordHasher.HashPassword(resetPasswordDTO.NewPassword);
+            user.ResetToken = null;
+            user.ResetTokenExpiry = null;
+
+            await _userRepository.UpdateUser(user);
+
+            return true;
         }
     }
 }
