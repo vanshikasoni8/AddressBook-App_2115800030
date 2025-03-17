@@ -31,6 +31,12 @@ namespace RepositoryLayer.Service
             return await _context.User.FirstOrDefaultAsync(u => u.Email == email);
         }
 
+        public async Task<UserEntity> GetUserByResetToken(string resetToken)
+        {
+            return await _context.User
+                 .FirstOrDefaultAsync(u => u.ResetToken == resetToken);
+        }
+
         public async Task UpdateUser(UserEntity user)
         {
             _context.User.Update(user);
