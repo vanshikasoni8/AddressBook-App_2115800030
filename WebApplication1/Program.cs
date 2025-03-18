@@ -2,6 +2,7 @@ using BussinessLayer.Helper;
 using BussinessLayer.Interface;
 using BussinessLayer.Service;
 using Microsoft.EntityFrameworkCore;
+using RabbitMQ.Client;
 using RepositoryLayer.Context;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
@@ -36,6 +37,15 @@ builder.Services.AddScoped<IUserRL, UserRL>();
 
 builder.Services.AddSingleton<JwtTokenGenerator>();
 builder.Services.AddSingleton<EmailService>();
+
+
+// Configure RabbitMQ
+var factory = new ConnectionFactory() { HostName = "localhost", Port = 5672 };
+var rabbitMqConnection = factory.CreateConnection();
+builder.Services.AddSingleton(rabbitMqConnection);
+
+// Register RabbitMQ Consumer
+builder.Services.AddHostedService<RabbitMqConsumer>();
 
 
 var app = builder.Build();

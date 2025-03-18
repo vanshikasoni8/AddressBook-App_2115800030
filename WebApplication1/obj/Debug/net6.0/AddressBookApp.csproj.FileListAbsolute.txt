@@ -181,3 +181,8 @@ E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\runt
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\StackExchange.Redis.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\RabbitMQ.Client.dll

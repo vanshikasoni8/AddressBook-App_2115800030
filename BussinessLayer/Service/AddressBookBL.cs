@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using BussinessLayer.Interface;
 using ModelLayer.DTO;
 using ModelLayer.Model;
+using RabbitMQ.Client;
 using RepositoryLayer.Interface;
 using StackExchange.Redis;
 
@@ -15,12 +17,14 @@ namespace BussinessLayer.Service
         private readonly IAddressBookRL _addressBookRL;
         private readonly IDatabase _cache;
         private readonly TimeSpan _cacheExpiration;
+        private readonly IConnection _rabbitMqConnection;
 
-        public AddressBookBL(IAddressBookRL addressBookRL, IConnectionMultiplexer redis)
+        public AddressBookBL(IAddressBookRL addressBookRL, IConnectionMultiplexer redis, IConnection rabbitMqConnection)
         {
             _addressBookRL = addressBookRL;
             _cache = redis.GetDatabase();
             _cacheExpiration = TimeSpan.FromMinutes(10); // Cache expiry time
+            _rabbitMqConnection = rabbitMqConnection;
         }
 
         // Fetch all contacts with caching
@@ -74,6 +78,10 @@ namespace BussinessLayer.Service
             // Invalidate all contacts cache
             await _cache.KeyDeleteAsync("contacts:all");
 
+            // Publish event to RabbitMQ
+            PublishMessage("contact.added", newContact);
+
+
             return newContact;
         }
 
@@ -106,6 +114,15 @@ namespace BussinessLayer.Service
             }
 
             return isDeleted;
+        }
+
+        private void PublishMessage<T>(string routingKey, T message)
+        {
+            using var channel = _rabbitMqConnection.CreateModel();
+            channel.ExchangeDeclare("events", ExchangeType.Topic);
+
+            var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
+            channel.BasicPublish(exchange: "events", routingKey: routingKey, body: body);
         }
     }
 }

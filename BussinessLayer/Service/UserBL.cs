@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using BussinessLayer.Helper;
 using BussinessLayer.Interface;
 using Microsoft.Extensions.Configuration;
 using ModelLayer.DTO;
 using ModelLayer.Model;
+using RabbitMQ.Client;
 using RepositoryLayer.Interface;
 using StackExchange.Redis;
 
@@ -20,14 +22,16 @@ namespace BussinessLayer.Service
         private readonly EmailService _emailService;
         private readonly IDatabase _cache;
         private readonly TimeSpan _cacheExpiration;
+        private readonly IConnection _rabbitMqConnection;
 
-        public UserBL(IUserRL userRepository, JwtTokenGenerator jwtTokenGenerator, EmailService emailService, IConnectionMultiplexer redis, IConfiguration config)
+        public UserBL(IUserRL userRepository, JwtTokenGenerator jwtTokenGenerator, EmailService emailService, IConnectionMultiplexer redis, IConfiguration config, IConnection rabbitMqConnection)
         {
             _userRepository = userRepository;
             _jwtTokenGenerator = jwtTokenGenerator;
             _emailService = emailService;
             _cache = redis.GetDatabase();
             _cacheExpiration = TimeSpan.FromMinutes(int.Parse(config["Redis:CacheExpirationMinutes"] ?? "10"));
+            _rabbitMqConnection = rabbitMqConnection;
         }
 
         public async Task<UserEntity> Register(UserDTO userDTO)
@@ -44,6 +48,10 @@ namespace BussinessLayer.Service
 
             // Cache user data
             await _cache.StringSetAsync($"user:{registeredUser.Email}", System.Text.Json.JsonSerializer.Serialize(registeredUser), _cacheExpiration);
+
+            // Publish user registration event to RabbitMQ
+            PublishMessage("UserRegisteredQueue", new { Email = registeredUser.Email, Name = registeredUser.Name });
+
 
             return registeredUser;
 
@@ -129,6 +137,16 @@ namespace BussinessLayer.Service
             await _cache.KeyDeleteAsync($"user:{user.Email}");
 
             return true;
+        }
+
+
+        private void PublishMessage<T>(string routingKey, T message)
+        {
+            using var channel = _rabbitMqConnection.CreateModel();
+            channel.ExchangeDeclare("events", ExchangeType.Topic);
+
+            var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
+            channel.BasicPublish(exchange: "events", routingKey: routingKey, body: body);
         }
     }
 }
