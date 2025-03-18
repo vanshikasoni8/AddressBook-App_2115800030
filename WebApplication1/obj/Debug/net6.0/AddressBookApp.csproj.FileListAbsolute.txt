@@ -178,3 +178,6 @@ E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Syst
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\StackExchange.Redis.dll
