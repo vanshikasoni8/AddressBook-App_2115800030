@@ -139,6 +139,7 @@ namespace BussinessLayer.Service
             return true;
         }
 
+        //for publishing the message 
 
         private void PublishMessage<T>(string routingKey, T message)
         {
