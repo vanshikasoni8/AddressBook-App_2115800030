@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "Testing\\AuthControllerTests.cs",
               "ToolTip": "E:\\AddressClone\\AddressBook-App_2115800030\\Testing\\AuthControllerTests.cs",
               "RelativeToolTip": "Testing\\AuthControllerTests.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwD8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T10:23:13.939Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "Testing\\AddressBookControllerTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T10:15:10.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T10:15:10.539Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\AddressBookController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T09:59:48.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T09:59:48.771Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:52:23.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:52:23.249Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "BussinessLayer\\Interface\\IUserBL.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:40:48.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:40:48.963Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "RepositoryLayer\\Service\\UserRL.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:29:33.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:29:33.574Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "BussinessLayer\\Service\\UserBL.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAuwIoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:39:57.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:39:57.804Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAnwCkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:32:00.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T17:32:00.359Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "WebApplication1\\appsettings.json",
               "ViewState": "AgIAAAcAAAAAAAAAAABhwCMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-16T15:08:38.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T15:08:38.83Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "BussinessLayer\\Service\\AddressBookBL.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:27:27.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:27:27.141Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T11:20:00.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T11:20:00.893Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "RepositoryLayer\\Service\\AddressBookRL.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T11:46:28.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T11:46:28.828Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "BussinessLayer\\Helper\\PasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:47:07.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:47:07.603Z"
             },
             {
               "$type": "Document",
@@ -271,8 +259,7 @@
               "RelativeToolTip": "BussinessLayer\\Helper\\JwtTokenGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:43:52.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:43:52.138Z"
             },
             {
               "$type": "Document",
@@ -284,8 +271,7 @@
               "RelativeToolTip": "BussinessLayer\\Interface\\IAddressBookBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:27:49.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:27:49.834Z"
             },
             {
               "$type": "Document",
@@ -297,8 +283,7 @@
               "RelativeToolTip": "RepositoryLayer\\Interface\\IAddressBookRL.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:23:05.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:23:05.648Z"
             },
             {
               "$type": "Document",
@@ -310,8 +295,7 @@
               "RelativeToolTip": "RepositoryLayer\\Context\\AddressBookContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAwAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:40:02.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T14:40:02.701Z"
             },
             {
               "$type": "Document",
@@ -323,8 +307,7 @@
               "RelativeToolTip": "ModelLayer\\Model\\AddressBookEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAACBjwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:58:02.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T14:58:02.216Z"
             },
             {
               "$type": "Document",
@@ -336,8 +319,7 @@
               "RelativeToolTip": "WebApplication1\\AddressBookApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-14T16:38:34.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T16:38:34.465Z"
             },
             {
               "$type": "Document",
@@ -349,8 +331,7 @@
               "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T16:38:16.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T16:38:16.964Z"
             }
           ]
         },
