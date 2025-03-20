@@ -21,6 +21,7 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6676b5870fc66c08621728cdf7a142c1c02c4026")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d8addb773826ffe0dd0baa57cdc8e8fbfb64ab5")]
@@ -42,6 +43,9 @@ using System.Reflection;
 >>>>>>> Section4_UC2
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe1dc7dfbc6cf2298a914c05ef8ae9f634ba8fc")]
+>>>>>>> Section5_UC2
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9cff985baf8a799379de324e44a634447722325")]
 >>>>>>> Section5_UC2
 [assembly: System.Reflection.AssemblyProductAttribute("BussinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BussinessLayer")]
