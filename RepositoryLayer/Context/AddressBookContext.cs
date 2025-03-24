@@ -17,9 +17,14 @@ namespace RepositoryLayer.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserEntity>()
-                .HasIndex(u => u.Email)
-                .IsUnique();
+            base .OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<AddressBookEntity>()
+                .HasOne(e => e.User)  // Each AddressBookEntity has one User
+                .WithMany(u => u.Contacts)  // One User can have many Contacts
+                .HasForeignKey(e => e.UserId)  // Foreign key in AddressBookEntity
+                .OnDelete(DeleteBehavior.Cascade); // Define delete behavior
         }
+
     }
 }

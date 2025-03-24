@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "AddressBookApp",
-    "version": "1.0"
+    "title": "Your API",
+    "version": "v1"
   },
   "paths": {
     "/AddressBook": {
@@ -91,17 +91,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddressBookEntity"
+                "$ref": "#/components/schemas/AddressBookDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddressBookEntity"
+                "$ref": "#/components/schemas/AddressBookDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AddressBookEntity"
+                "$ref": "#/components/schemas/AddressBookDTO"
               }
             }
           }
@@ -354,6 +354,28 @@
   },
   "components": {
     "schemas": {
+      "AddressBookDTO": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AddressBookEntity": {
         "required": [
           "address",
@@ -382,6 +404,10 @@
           "address": {
             "minLength": 1,
             "type": "string"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -436,7 +462,7 @@
         ],
         "type": "object",
         "properties": {
-          "id": {
+          "userId": {
             "type": "integer",
             "format": "int32"
           },
@@ -464,6 +490,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter Token in the text input below.",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

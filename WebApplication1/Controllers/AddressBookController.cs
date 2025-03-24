@@ -5,6 +5,8 @@ using BussinessLayer.Service;
 using BussinessLayer.Interface;
 using ModelLayer.Model;
 using ModelLayer.DTO;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 namespace WebApplication1.Controllers
 {
     [ApiController]
@@ -26,6 +28,7 @@ namespace WebApplication1.Controllers
         }
 
         // get a contact by Id
+        //[Authorize(Roles ="User,Admin")]
         [HttpGet("Get Contact")]
         public async Task<ActionResult<AddressBookEntity>> GetContactById(int id)
         {
@@ -34,13 +37,58 @@ namespace WebApplication1.Controllers
             return Ok(contact);
         }
 
+        private int GetUserIdFromToken()
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (identity != null && identity.IsAuthenticated)
+            {
+                foreach (var claim in identity.Claims)
+                {
+                    Console.WriteLine($"Claim Type: {claim.Type}, Claim Value: {claim.Value}");
+                }
+
+                var userIdClaim = identity.Claims.FirstOrDefault(c =>
+                                c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
+                Console.WriteLine("YEH H: ", userIdClaim);
+
+                if (userIdClaim != null)
+                {
+                    Console.WriteLine($"Extracted Claim Value: {userIdClaim.Value}");
+
+                    if (int.TryParse(userIdClaim.Value, out int userId))
+                    {
+                        return userId;
+                    }
+                    else
+                    {
+                        throw new FormatException($"User ID in token is not a valid integer: {userIdClaim.Value}");
+                    }
+
+                    //return userIdClaim.;
+                }
+            }
+            throw new UnauthorizedAccessException("User ID not found in token.");
+        }
+
+
+
+
         //for adding New Contacts
         [HttpPost]
         [Route("AddContact")]
-        public async Task<ActionResult<AddressBookEntity>> AddContact(AddressBookEntity contact)
+        public async Task<ActionResult<AddressBookEntity>> AddContact(AddressBookDTO contact)
         {
-            var newContact = await _addressBookBL.AddContactAsync(contact);
-            return CreatedAtAction(nameof(GetContactById), new { id = newContact.Id }, newContact);
+            var userId = GetUserIdFromToken();
+            AddressBookEntity entry = new AddressBookEntity()
+            {
+                Name = contact.Name,
+                Phone = contact.Phone,
+                Email = contact.Email,
+                Address = contact.Address,
+                UserId = userId
+            };
+            var newContact = await _addressBookBL.AddContactAsync(entry);
+            return Ok(newContact);
         }
 
         //for updating contacts
@@ -52,11 +100,6 @@ namespace WebApplication1.Controllers
             return NoContent();
         }
 
-<<<<<<< HEAD
-        // for deleting Contact
-=======
-        // for deleting Contacts
->>>>>>> Section2_UC1
         [HttpDelete("DeleteContact")]
         public async Task<IActionResult> DeleteContact(int id)
         {

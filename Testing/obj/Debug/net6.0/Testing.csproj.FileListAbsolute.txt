@@ -176,3 +176,4 @@ E:\AddressClone\AddressBook-App_2115800030\Testing\obj\Debug\net6.0\refint\Testi
 E:\AddressClone\AddressBook-App_2115800030\Testing\obj\Debug\net6.0\Testing.pdb
 E:\AddressClone\AddressBook-App_2115800030\Testing\obj\Debug\net6.0\Testing.genruntimeconfig.cache
 E:\AddressClone\AddressBook-App_2115800030\Testing\obj\Debug\net6.0\ref\Testing.dll
+E:\AddressClone\AddressBook-App_2115800030\Testing\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

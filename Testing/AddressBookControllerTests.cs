@@ -69,9 +69,17 @@ namespace Testing
         [Test]
         public async Task AddContact_ValidContact_ReturnsCreatedAtAction()
         {
-            var contact = new AddressBookEntity { Id = 1, Name = "John Doe", Email = "john@example.com" };
-            _mockAddressBookBL.Setup(bl => bl.AddContactAsync(It.IsAny<AddressBookEntity>())).ReturnsAsync(contact);
-
+            var contact = new AddressBookDTO { Name = "John Doe", Email = "john@example.com" };
+            _mockAddressBookBL
+    .Setup(x => x.AddContactAsync(It.IsAny<AddressBookEntity>()))
+    .ReturnsAsync(new AddressBookEntity  // ✅ Correct type
+    {
+        Name = "John Doe",
+        Phone = "1234567890",
+        Email = "john@example.com",
+        Address = "123 Street",
+        UserId = 1
+    });
             var result = await _controller.AddContact(contact);
 
             Assert.IsInstanceOf<CreatedAtActionResult>(result.Result);

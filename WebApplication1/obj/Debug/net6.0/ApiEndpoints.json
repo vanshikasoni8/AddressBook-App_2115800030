@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "contact",
-        "Type": "ModelLayer.DTO.AddressBookEntity",
+        "Type": "ModelLayer.DTO.AddressBookDTO",
         "IsRequired": true
       }
     ],

@@ -186,3 +186,4 @@ E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Micr
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\AddressClone\AddressBook-App_2115800030\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

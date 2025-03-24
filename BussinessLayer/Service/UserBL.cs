@@ -85,7 +85,7 @@ namespace BussinessLayer.Service
                 return null; // Invalid credentials
             }
 
-            return _jwtTokenGenerator.GenerateToken(user.Email);
+            return _jwtTokenGenerator.GenerateToken(user.Email, user.UserId);
         }
 
         public async Task<bool> ForgotPassword(ForgotPasswordDTO forgotPasswordDTO)

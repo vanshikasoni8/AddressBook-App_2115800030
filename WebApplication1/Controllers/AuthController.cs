@@ -25,7 +25,7 @@ namespace AddressBookApp.Controllers
         public async Task<ActionResult<UserEntity>> Register([FromBody] UserDTO userDTO)
         {
             var registeredUser = await _userService.Register(userDTO);
-            return CreatedAtAction(nameof(Register), new { id = registeredUser.Id }, registeredUser);
+            return CreatedAtAction(nameof(Register), new { id = registeredUser.UserId }, registeredUser);
         }
 
         /// <summary>

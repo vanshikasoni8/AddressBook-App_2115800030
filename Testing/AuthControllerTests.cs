@@ -32,7 +32,7 @@ namespace Testing
         {
             // Arrange
             var userDTO = new UserDTO { Email = "test@example.com", Password = "password", Name = "Test User" };
-            var userEntity = new UserEntity { Id = 1, Email = userDTO.Email, Name = userDTO.Name };
+            var userEntity = new UserEntity { UserId = 1, Email = userDTO.Email, Name = userDTO.Name };
             _mockUserService.Setup(x => x.Register(userDTO)).ReturnsAsync(userEntity);
 
             // Act

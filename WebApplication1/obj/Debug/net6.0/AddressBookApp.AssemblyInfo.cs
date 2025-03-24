@@ -14,39 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressBookApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6676b5870fc66c08621728cdf7a142c1c02c4026")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d8addb773826ffe0dd0baa57cdc8e8fbfb64ab5")]
->>>>>>> Section2_UC1
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+878799bd86cb66332133b2aae2337acc6fe69f93")]
->>>>>>> Section2_UC2
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3130451aeeed37f6deae0ec141049d784773867")]
->>>>>>> Section3_UC1
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6c2188fb501d868a74c45aea9faaf0985ee131a")]
->>>>>>> Section3_UC2
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c019f7b2cd6a2b6e4c1b99c2c6a4e404ee86816")]
->>>>>>> Section3_UC2
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41fbf9dd9a3977c603343ab84561effec5d0522d")]
->>>>>>> Section4_UC2
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe1dc7dfbc6cf2298a914c05ef8ae9f634ba8fc")]
->>>>>>> Section5_UC2
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9cff985baf8a799379de324e44a634447722325")]
->>>>>>> Section5_UC2
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+028b02a3f3b9acd32d20f1ba7cfb50dcdb0fba98")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressBookApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressBookApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
